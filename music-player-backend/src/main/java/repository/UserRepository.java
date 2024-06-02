@@ -1,12 +1,12 @@
 package repository;
 
-import model.Song;
+import model.User;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 /**
  * automatically creates crud functionality
  */
-public interface SongRepository extends MongoRepository<Song, String> {
+public interface UserRepository extends MongoRepository<User, String> {
 
 
 

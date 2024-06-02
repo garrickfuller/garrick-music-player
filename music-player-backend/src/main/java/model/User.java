@@ -10,16 +10,16 @@ import org.springframework.data.mongodb.core.mapping.Document;
  */
 @Document
 @Data // this is lombok for boilerplate getter() setter() ToString etc
-public class Song {
+public class User {
 
     @Id //mark as id so spring knows to create a unique id for every song in database
     private String id;
 
-    private String filename;
+    private String username;
 
-    private String title;
+    private String password;
 
-    private String artist;
+    private String email;
 
 
 }
