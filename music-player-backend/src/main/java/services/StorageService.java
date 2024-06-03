@@ -23,7 +23,7 @@ public class StorageService {
 
         AWSCredentialsProvider awsCredentialsProvider = new AWSStaticCredentialsProvider(
                 //access key and secret key here
-                new BasicAWSCredentials("DO00WND39ERLPFDBEEDQ", "Z7vecHyzm+l61ROoas3rAmDT3D2GvESgLP99zBLS+wY")
+                new BasicAWSCredentials("access", "secret")
         );
 
         space = AmazonS3ClientBuilder
