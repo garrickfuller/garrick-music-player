@@ -9,5 +9,7 @@ import org.springframework.data.mongodb.repository.MongoRepository;
 public interface SongRepository extends MongoRepository<Song, String> {
 
 
+    boolean existsSongByFileNameEquals(String originalFilename);
 
+    boolean existsSongByTitleEquals(String title);
 }
