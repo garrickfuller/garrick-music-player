@@ -1,2 +1,2 @@
 # garrick-music-player
-WIP Music Player developed using Spring Boot
+Backend for a Music Player developed using Spring Boot
